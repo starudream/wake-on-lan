@@ -47,19 +47,19 @@ $(zip_releases): %.zip: %
 releases: clean $(zip_releases)
 
 linux-amd64:
-	GOOS=linux GOARCH=amd64 CGO_ENABLED=0 $(GO) build -tags '$(BITTAGS)' -ldflags '$(LDFLAGS)' -o bin/$(PROJECT)-$@ $(MODULE)
+	GOOS=linux GOARCH=amd64 CGO_ENABLED=0 $(GO) build -tags '$(BITTAGS)' -ldflags '$(LDFLAGS)' -o bin/$(PROJECT)-$@ $(MODULE)/cmd
 
 linux-arm64:
-	GOOS=linux GOARCH=arm64 CGO_ENABLED=0 $(GO) build -tags '$(BITTAGS)' -ldflags '$(LDFLAGS)' -o bin/$(PROJECT)-$@ $(MODULE)
+	GOOS=linux GOARCH=arm64 CGO_ENABLED=0 $(GO) build -tags '$(BITTAGS)' -ldflags '$(LDFLAGS)' -o bin/$(PROJECT)-$@ $(MODULE)/cmd
 
 darwin-amd64:
-	GOOS=darwin GOARCH=amd64 CGO_ENABLED=0 $(GO) build -tags '$(BITTAGS)' -ldflags '$(LDFLAGS)' -o bin/$(PROJECT)-$@ $(MODULE)
+	GOOS=darwin GOARCH=amd64 CGO_ENABLED=0 $(GO) build -tags '$(BITTAGS)' -ldflags '$(LDFLAGS)' -o bin/$(PROJECT)-$@ $(MODULE)/cmd
 
 darwin-arm64:
-	GOOS=darwin GOARCH=arm64 CGO_ENABLED=0 $(GO) build -tags '$(BITTAGS)' -ldflags '$(LDFLAGS)' -o bin/$(PROJECT)-$@ $(MODULE)
+	GOOS=darwin GOARCH=arm64 CGO_ENABLED=0 $(GO) build -tags '$(BITTAGS)' -ldflags '$(LDFLAGS)' -o bin/$(PROJECT)-$@ $(MODULE)/cmd
 
 windows-amd64:
-	GOOS=windows GOARCH=amd64 CGO_ENABLED=0 $(GO) build -tags '$(BITTAGS)' -ldflags '$(LDFLAGS)' -o bin/$(PROJECT)-$@.exe $(MODULE)
+	GOOS=windows GOARCH=amd64 CGO_ENABLED=0 $(GO) build -tags '$(BITTAGS)' -ldflags '$(LDFLAGS)' -o bin/$(PROJECT)-$@.exe $(MODULE)/cmd
 
 windows-arm64:
-	GOOS=windows GOARCH=arm64 CGO_ENABLED=0 $(GO) build -tags '$(BITTAGS)' -ldflags '$(LDFLAGS)' -o bin/$(PROJECT)-$@.exe $(MODULE)
+	GOOS=windows GOARCH=arm64 CGO_ENABLED=0 $(GO) build -tags '$(BITTAGS)' -ldflags '$(LDFLAGS)' -o bin/$(PROJECT)-$@.exe $(MODULE)/cmd
