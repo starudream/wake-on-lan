@@ -2,7 +2,7 @@ module github.com/starudream/wake-on-lan
 
 go 1.18
 
-require github.com/starudream/go-lib v1.1.0
+require github.com/starudream/go-lib v1.2.1
 
 require (
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
