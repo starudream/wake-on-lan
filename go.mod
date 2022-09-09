@@ -2,7 +2,7 @@ module github.com/starudream/wake-on-lan
 
 go 1.18
 
-require github.com/starudream/go-lib v1.1.0
+require github.com/starudream/go-lib v1.3.1
 
 require (
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
@@ -15,15 +15,15 @@ require (
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
-	github.com/pelletier/go-toml/v2 v2.0.3 // indirect
-	github.com/rs/zerolog v1.27.0 // indirect
+	github.com/pelletier/go-toml/v2 v2.0.5 // indirect
+	github.com/rs/zerolog v1.28.0 // indirect
 	github.com/spf13/afero v1.9.2 // indirect
 	github.com/spf13/cast v1.5.0 // indirect
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	github.com/spf13/viper v1.12.0 // indirect
-	github.com/subosito/gotenv v1.4.0 // indirect
-	golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab // indirect
+	github.com/spf13/viper v1.13.0 // indirect
+	github.com/subosito/gotenv v1.4.1 // indirect
+	golang.org/x/sys v0.0.0-20220908164124-27713097b956 // indirect
 	golang.org/x/text v0.3.7 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
