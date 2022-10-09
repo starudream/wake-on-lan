@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/starudream/wake-on-lan/compare/v1.1.0...v1.1.1) (2022-10-09)
+
+
+### Performance Improvements
+
+* perfect use go 1.19 ([97d4b8e](https://github.com/starudream/wake-on-lan/commit/97d4b8ee1d764e89d194f8d717ceaff055a0a857))
+
 ## [1.1.0](https://github.com/starudream/wake-on-lan/compare/v1.0.1...v1.1.0) (2022-09-09)
 
 
