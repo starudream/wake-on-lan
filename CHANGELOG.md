@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/starudream/wake-on-lan/compare/v1.1.1...v1.2.0) (2022-12-02)
+
+
+### Features
+
+* **deps:** bump dependencies ([7dd4d3a](https://github.com/starudream/wake-on-lan/commit/7dd4d3af71ade21e024015ec182c71820703255a))
+
 ## [1.1.1](https://github.com/starudream/wake-on-lan/compare/v1.1.0...v1.1.1) (2022-10-09)
 
 
