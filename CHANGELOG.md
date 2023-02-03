@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/starudream/wake-on-lan/compare/v1.2.1...v1.2.2) (2023-02-03)
+
+
+### Performance Improvements
+
+* perfect ([ad39d08](https://github.com/starudream/wake-on-lan/commit/ad39d08409574dc54729c853ad540ffc280b6372))
+
 ## [1.2.1](https://github.com/starudream/wake-on-lan/compare/v1.2.0...v1.2.1) (2022-12-13)
 
 
