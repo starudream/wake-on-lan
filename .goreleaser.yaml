@@ -63,7 +63,7 @@ dockers:
     dockerfile: Dockerfile
     use: buildx
     image_templates:
-      - "starudream/{{ .ProjectName }}:{{ .Tag }}-arm64"
+      - "starudream/{{ .ProjectName }}:latest-arm64"
       - "starudream/{{ .ProjectName }}:{{ .Tag }}-arm64"
       - "ghcr.io/starudream/{{ .ProjectName }}:latest-arm64"
       - "ghcr.io/starudream/{{ .ProjectName }}:{{ .Tag }}-arm64"
