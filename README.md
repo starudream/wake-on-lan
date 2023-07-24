@@ -1,7 +1,7 @@
 # Wake On Lan
 
 ![Golang](https://img.shields.io/github/actions/workflow/status/starudream/wake-on-lan/golang.yml?label=golang&style=for-the-badge)
-![Docker](https://img.shields.io/github/actions/workflow/status/starudream/wake-on-lan/docker.yml?label=docker&style=for-the-badge)
+![Release](https://img.shields.io/github/actions/workflow/status/starudream/wake-on-lan/release.yml?label=release&style=for-the-badge)
 ![Release](https://img.shields.io/github/v/release/starudream/wake-on-lan?include_prereleases&sort=semver&style=for-the-badge)
 ![License](https://img.shields.io/github/license/starudream/wake-on-lan?style=for-the-badge)
 
