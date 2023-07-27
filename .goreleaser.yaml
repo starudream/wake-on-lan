@@ -29,7 +29,10 @@ builds:
       - -X "github.com/starudream/go-lib/constant.PREFIX="
 
 archives:
-  - format: tar.gz
+  - id: binary
+    format: binary
+  - id: archive
+    format: tar.gz
     name_template: "{{ .ProjectName }}_v{{ .Version }}_{{ .Os }}_{{ .Arch }}"
     format_overrides:
       - goos: windows
@@ -97,8 +100,7 @@ checksum:
   name_template: "checksums.txt"
 
 release:
-  draft: true
-  replace_existing_draft: true
+  mode: append
   target_commitish: "{{ .Commit }}"
 
 changelog:
