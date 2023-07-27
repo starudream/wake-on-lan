@@ -24,3 +24,6 @@ jobs:
       - uses: goreleaser/goreleaser-action@v4
         with:
           args: build --clean --snapshot
+      - uses: actions/upload-artifact@v3
+        with:
+          path: dist
