@@ -31,6 +31,7 @@ builds:
 archives:
   - id: binary
     format: binary
+    name_template: "{{ .ProjectName }}_v{{ .Version }}_{{ .Os }}_{{ .Arch }}"
   - id: archive
     format: tar.gz
     name_template: "{{ .ProjectName }}_v{{ .Version }}_{{ .Os }}_{{ .Arch }}"
